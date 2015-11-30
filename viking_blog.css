@@ -1,0 +1,41 @@
+body{
+  font-family: Helvetica;
+}
+div{
+  border: 1px solid #ddd;
+}
+#navbar{
+  height: 70px;
+  border-bottom: 1px solid black;
+}
+.logo{
+  display: inline-block;
+  line-height: 70px;
+  padding-left: 10px;
+}
+.logo img{
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+}
+.logo h2{
+  font-size: 24px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.nav-elements{
+  float: right;
+}
+.nav-elements .button{
+  font-size: 24px;
+  text-align: center;
+  width: 195px;
+  display: inline-block;
+  line-height: 70px;
+  height: 70px;
+}
+.cta-button{
+  font-weight: bold;
+  color: white;
+  background-color: #2b78e4;
+}
